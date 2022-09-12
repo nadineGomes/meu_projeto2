@@ -1,0 +1,7 @@
+---
+- name: Validar informacoes dos servidores
+  hosts:
+  gather_facts: no
+  become: true
+  roles:
+    - validar_info
